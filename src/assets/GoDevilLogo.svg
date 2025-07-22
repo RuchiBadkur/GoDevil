@@ -1,0 +1,18 @@
+<svg width="120" height="100" viewBox="0 0 120 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="devilToDivine" x1="0" y1="0" x2="120" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B0000" />  <!-- Devil -->
+      <stop offset="100%" stop-color="#f8c8dc" /> <!-- Divine -->
+    </linearGradient>
+  </defs>
+
+  <!-- G - Lower and bold -->
+  <text x="10" y="80" font-family="Georgia, serif" font-size="60" font-weight="bold" fill="url(#devilToDivine)">
+    G
+  </text>
+
+  <!-- D - Closer to G, placed overlapping in the curve -->
+  <text x="45" y="60" font-family="Georgia, serif" font-size="55" font-weight="bold" fill="url(#devilToDivine)">
+    D
+  </text>
+</svg>

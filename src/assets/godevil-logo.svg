@@ -1,0 +1,26 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 500 100"
+  className="h-20 w-auto"
+  fill="none"
+>
+  <text
+    x="0"
+    y="70"
+    fontFamily="serif"
+    fontWeight="bold"
+    fontSize="64"
+    fill="url(#grad)"
+    stroke="black"
+    strokeWidth="2"
+  >
+    GoDevil
+  </text>
+  <defs>
+    <linearGradient id="grad" x1="0" y1="0" x2="500" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stopColor="#ff0000" />
+      <stop offset="50%" stopColor="#000000" />
+      <stop offset="100%" stopColor="#ff1493" />
+    </linearGradient>
+  </defs>
+</svg>
