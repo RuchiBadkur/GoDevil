@@ -8,7 +8,7 @@ Welcome to **GoDevil**, a modern, aesthetic, and powerful fashion-inspired eComm
 
 ## 🖼️ Live Preview
 
-[🔗 Visit Live Site](https://your-live-site-url.com)  
+[🔗 Visit Live Site](https://godevil.netlify.app/devil)  
 [📸 Demo Video](https://your-demo-video-url.com)
 
 ---

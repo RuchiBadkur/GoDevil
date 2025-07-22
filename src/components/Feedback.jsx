@@ -1,3 +1,4 @@
+// Feedback.jsx
 import React, { useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
@@ -11,18 +12,18 @@ const Feedback = () => {
 
     emailjs
       .sendForm(
-        'service_xxxxxxx', // Replace with your EmailJS Service ID
-        'template_xxxxxxx', // Replace with your EmailJS Template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID_FEEDBACK,
         formRef.current,
-        'user_xxxxxxxxxxxxx' // Replace with your EmailJS Public Key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
           setSubmitted(true);
           formRef.current.reset();
         },
-        (error) => {
-          console.error('FAILED...', error);
+        () => {
+          alert('❌ Submission failed. Try again!');
         }
       );
   };
